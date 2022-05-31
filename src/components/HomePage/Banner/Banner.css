@@ -1,0 +1,7 @@
+.banner-section {
+    background-image: url(../../../image/Banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 100vh;
+}
