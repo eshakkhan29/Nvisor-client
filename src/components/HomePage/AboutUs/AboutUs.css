@@ -1,0 +1,52 @@
+.section-title {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    color: #E02E2E;
+}
+
+.about-heading {
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: -0.03em;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #797979;
+}
+.check-icon{
+    color: #E02E2E;
+    font-size: 25px;
+}
+.line{
+    border: 2px solid #E02E2E;
+    width: 86%;
+    z-index: 1;
+}
+.line-75{
+    border: 2px solid #E02E2E;
+    width: 75%;
+    z-index: 1;
+}
+.down-line{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: 2px solid #ECECEC;
+    z-index: -100;
+}
+.btn-about{
+    background: #002842;
+    padding: 20px 35px;
+    border: none;
+    outline: none;
+    color: white;
+}
+@media (max-width: 556px) {
+    .about-heading{
+        font-size: 40px;
+    }
+}

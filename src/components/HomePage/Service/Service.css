@@ -1,0 +1,54 @@
+.service-section {
+    background: url(../../../image/service.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.row-padding{
+    padding: 200px 0px;
+}
+.service-heading {
+    width: 60%;
+}
+
+.card-count {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 48px;
+    color: #F5F5F5;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.see-details {
+    font-weight: 500;
+    font-size: 15px;
+    color: #3E3E3E;
+}
+.service-col{
+    position: relative;
+    top: 37px;
+}
+.service-col-2{
+    position: relative;
+    top: 80px;
+}
+.active{
+    background: #002842 !important;
+    color: white;
+}
+.active-p{
+    color: white;
+}
+
+
+
+@media (max-width: 556px) {
+    .service-heading {
+        width: 75%;
+    }
+}
