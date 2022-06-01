@@ -6,6 +6,7 @@ import icon2 from '../../../image/Icon/Pen.png';
 import icon3 from '../../../image/Icon/Mike.png';
 import icon4 from '../../../image/Icon/Rate.png';
 import icon5 from '../../../image/Icon/Setting.png';
+import { Link } from 'react-router-dom';
 
 const Service = () => {
     return (
@@ -15,84 +16,84 @@ const Service = () => {
                     <h1 className='section-title'>SERVICES</h1>
                     <h2 className='about-heading'>Get our best services for your business growth</h2>
                 </div>
-                <div className='row g-4 my-3'>
-                    <div className="col-3">
+                <div className='row g-0 g-lg-4 my-3'>
+                    <div className="col-lg-3">
                         <div className='p-4 bg-white'>
                             <h2 className='card-count'>01</h2>
                             <h2 className='card-title'>Mobile <br /> development</h2>
                             <div className='d-flex justify-content-between align-items-end'>
-                                <p className='see-details'>See Details <span><BsArrowRight /></span> </p>
+                                <Link to='/'><p className='see-details'>See Details <span><BsArrowRight /></span> </p></Link>
                                 <img src={icon1} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
-                        <div className='p-4 bg-white service-col active'>
+                    <div className="col-lg-3 ">
+                        <div className='p-4 service-col active-card'>
                             <h2 className='card-count'>02</h2>
                             <h2 className='card-title'>UI/Ux <br /> design</h2>
                             <div className='d-flex justify-content-between align-items-end'>
-                                <p className='see-details active-p'>See Details <span><BsArrowRight /></span> </p>
+                                <Link to='/'><p className='see-details active-p'>See Details <span><BsArrowRight /></span> </p></Link>
                                 <img src={icon2} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3 ">
                         <div className='p-4 bg-white'>
                             <h2 className='card-count'>03</h2>
                             <h2 className='card-title'>Digital <br /> Marketing</h2>
 
                             <div className='d-flex justify-content-between align-items-end'>
-                                <p className='see-details'>See Details <span><BsArrowRight /></span> </p>
+                                <Link to='/'><p className='see-details'>See Details <span><BsArrowRight /></span> </p></Link>
                                 <img src={icon3} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3 ">
                         <div className='p-4 bg-white service-col-2'>
                             <h2 className='card-count'>04</h2>
                             <h2 className='card-title'>Market <br /> analysis</h2>
                             <div className='d-flex justify-content-between align-items-end'>
-                                <p className='see-details'>See Details <span><BsArrowRight /></span> </p>
+                                <Link to='/'><p className='see-details'>See Details <span><BsArrowRight /></span> </p></Link>
                                 <img src={icon4} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3 ">
                         <div className='p-4 bg-white'>
                             <h2 className='card-count'>05</h2>
                             <h2 className='card-title'>Process <br /> development</h2>
                             <div className='d-flex justify-content-between align-items-end'>
-                                <p className='see-details'>See Details <span><BsArrowRight /></span> </p>
+                                <Link to='/'><p className='see-details'>See Details <span><BsArrowRight /></span> </p></Link>
                                 <img src={icon5} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3 ">
                         <div className='p-4 bg-white service-col'>
                             <h2 className='card-count'>06</h2>
                             <h2 className='card-title'>UI/Ux <br /> design</h2>
                             <div className='d-flex justify-content-between align-items-end'>
-                                <p className='see-details'>See Details <span><BsArrowRight /></span> </p>
+                                <Link to='/'><p className='see-details'>See Details <span><BsArrowRight /></span> </p></Link>
                                 <img src={icon2} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3 ">
                         <div className='p-4 bg-white'>
                             <h2 className='card-count'>07</h2>
                             <h2 className='card-title'>Mobile <br /> development</h2>
                             <div className='d-flex justify-content-between align-items-end'>
-                                <p className='see-details'>See Details <span><BsArrowRight /></span> </p>
+                                <Link to='/'><p className='see-details'>See Details <span><BsArrowRight /></span> </p></Link>
                                 <img src={icon1} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-lg-3 ">
                         <div className='p-4 bg-white service-col-2'>
                             <h2 className='card-count'>08</h2>
                             <h2 className='card-title'>Digital <br /> Marketing</h2>
                             <div className='d-flex justify-content-between align-items-end'>
-                                <p className='see-details'>See Details <span><BsArrowRight /></span> </p>
+                                <Link to='/'><p className='see-details'>See Details <span><BsArrowRight /></span> </p></Link>
                                 <img src={icon3} alt="" />
                             </div>
                         </div>

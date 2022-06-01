@@ -4,7 +4,9 @@
     letter-spacing: 0.25em;
     color: #E02E2E;
 }
-
+.left-half{
+    padding-left: 300px !important;
+}
 .about-heading {
     font-weight: 600;
     font-size: 50px;
@@ -48,5 +50,8 @@
 @media (max-width: 556px) {
     .about-heading{
         font-size: 40px;
+    }
+    .left-half{
+        padding-left: 0 !important;
     }
 }

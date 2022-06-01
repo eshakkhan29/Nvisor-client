@@ -37,18 +37,24 @@
     position: relative;
     top: 80px;
 }
-.active{
-    background: #002842 !important;
+.active-card{
+    background-color: #002842 !important;
     color: white;
+}
+.active-card .card-count{
+    color: #163A53 !important;
 }
 .active-p{
     color: white;
+}
+a{
+    text-decoration: none !important;
 }
 
 
 
 @media (max-width: 556px) {
     .service-heading {
-        width: 75%;
+        width: 95%;
     }
 }
