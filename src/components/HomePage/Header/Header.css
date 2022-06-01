@@ -15,23 +15,31 @@
     display: none;
 }
 
+.menu-icon {
+    font-size: 40px;
+    line-height: 0;
+}
+
 
 
 @media (max-width: 556px) {
     .nav-items a {
         display: block;
         border-bottom: 1px solid #ffffff80;
-        padding: 5px;
-        padding-right: 20px;
+        padding: 10px;
+        padding-right: 40px;
         margin: 0;
         font-size: 20px;
     }
 
     .navigation-bar {
+        position: absolute;
+        top: 0;
+        right: -250px;
         border-left: 1px solid #ffffff80;
         border-bottom: 1px solid #ffffff80;
-        margin-left: auto;
         padding-bottom: 10px;
+        padding-right: 50px;
     }
 
     .container {
@@ -47,14 +55,17 @@
         display: block;
         padding: 10px;
     }
-    .menu-sm{
+
+    .menu-sm {
         display: block;
     }
+
     .nav-contact {
         border-top: 1px solid #ffffff80;
     }
-    .mobile-logo-section{
-        display: flex;
+
+    .mobile-menu-toggler {
+        top: 30px;
     }
 
 }
