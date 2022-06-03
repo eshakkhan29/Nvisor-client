@@ -1,0 +1,54 @@
+.btn-team {
+    background: #002842;
+    padding: 18px 30px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.team-heading {
+    width: 50%;
+}
+
+.team-paragraph {
+    width: 30%;
+}
+
+.team-members-div {
+    width: 80%;
+    margin-left: 300px;
+}
+.team-down-position {
+    padding-top: 60px !important;
+}
+.parsons-info{
+    bottom: 60px;
+}
+
+@media (max-width: 556px) {
+    .team-heading {
+        width: 90%;
+    }
+
+    .team-paragraph {
+        width: 90%;
+    }
+
+    .team-members-div {
+        width: 90%;
+        margin: auto;
+    }
+
+    .team-down-position {
+        padding-top: 25px !important;
+    }
+    .member-name{
+    font-size: 16px;
+    }
+    .member-job{
+        font-size: 8px;
+    }
+    .parsons-info{
+        bottom: 15px;
+    }
+}
