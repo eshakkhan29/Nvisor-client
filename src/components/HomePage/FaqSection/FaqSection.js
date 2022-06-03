@@ -3,6 +3,9 @@ import './FaqSection.css';
 import image from '../../../image/faq-image.png';
 import { Accordion } from 'react-bootstrap';
 import icon1 from '../../../image/bs-icon/boost.png'
+import icon2 from '../../../image/bs-icon/client.png'
+import icon3 from '../../../image/bs-icon/office.png'
+import icon4 from '../../../image/bs-icon/team.png'
 
 const FaqSection = () => {
     return (
@@ -47,8 +50,8 @@ const FaqSection = () => {
                     </div>
                 </div>
             </div>
-            <div className='Business-summary d-flex align-items-center justify-content-around'>
-                <div className="row">
+            <div className='Business-summary d-flex align-items-center justify-content-center'>
+                <div className="row align-items-center">
                     <div className="col-lg-3 col-6">
                         <div className='d-flex align-items-center'>
                             <img className='me-3 icon' src={icon1} alt="" />
@@ -60,28 +63,28 @@ const FaqSection = () => {
                     </div>
                     <div className="col-lg-3 col-6">
                         <div className='d-flex align-items-center'>
-                            <img className='me-3 icon' src={icon1} alt="" />
+                            <img className='me-3 icon' src={icon2} alt="" />
                             <div>
-                                <h2 className='text-white summary-title'>4541</h2>
-                                <p className='summary-text'>Project Completed</p>
+                                <h2 className='text-white summary-title'>100%</h2>
+                                <p className='summary-text'>Client Satisfaction</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6">
                         <div className='d-flex align-items-center'>
-                            <img className='me-3 icon' src={icon1} alt="" />
+                            <img className='me-3 icon' src={icon3} alt="" />
                             <div>
-                                <h2 className='text-white summary-title'>4541</h2>
-                                <p className='summary-text'>Project Completed</p>
+                                <h2 className='text-white summary-title'>15+</h2>
+                                <p className='summary-text'>Country Office</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6">
                         <div className='d-flex align-items-center'>
-                            <img className='me-3 icon' src={icon1} alt="" />
+                            <img className='me-3 icon' src={icon4} alt="" />
                             <div>
-                                <h2 className='text-white summary-title'>4541</h2>
-                                <p className='summary-text'>Project Completed</p>
+                                <h2 className='text-white summary-title'>100+</h2>
+                                <p className='summary-text'>Team Member</p>
                             </div>
                         </div>
                     </div>

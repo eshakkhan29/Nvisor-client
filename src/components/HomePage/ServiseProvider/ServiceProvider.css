@@ -1,0 +1,61 @@
+.service-provider {
+    background: url(../../../image/service-hand.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.provided-context {
+    width: 45%;
+    margin-left: auto;
+}
+
+.service-provider-heading {
+    color: white;
+    font-size: 50px;
+}
+
+.sub-heading {
+    font-size: 23px;
+    color: white;
+}
+
+.btn-find {
+    background: white;
+    padding: 17px 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+.btn-get {
+    background: #E02E2E;
+    padding: 17px 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+
+@media (max-width: 556px) {
+    .provided-context {
+        width: 80%;
+        margin: auto;
+    }
+
+    .service-provider-heading {
+        font-size: 40px;
+    }
+
+    .sub-heading {
+        font-size: 17px;
+    }
+
+    .service-provider {
+        background-position: center right;
+    }
+}
