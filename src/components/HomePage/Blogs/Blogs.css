@@ -1,0 +1,17 @@
+.blogs-info {
+    padding: 0px 40px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.blogs-date {
+    letter-spacing: 0.18em;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.blogs-text {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 26px;
+}

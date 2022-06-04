@@ -1,0 +1,11 @@
+.testimonials-contents{
+    width: 80%;
+    margin: auto;
+}
+.info{
+    padding: 10px 80px;
+    background: url(../../../image/Icon/quate.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
